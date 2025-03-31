@@ -12,7 +12,17 @@ import androidx.lifecycle.Lifecycle
 class GeneralKnowledgeQuizActivity : AppCompatActivity(){
     private var currentQuestionIndex = 0
     private val questions = listOf(
-        Question("Who is the Greek God of the Sun", listOf("Apollo", "Zues", "Hades", "Hermes"), 1)
+        Question("Who is the Greek God of the Sun?", listOf("Apollo", "Zeus", "Hades", "Hermes"), 1),
+        Question("What is the capital city of France?", listOf("Madrid", "Berlin", "Rome", "Paris"), 4),
+        Question("Which planet is known as the Red Planet?", listOf("Earth", "Mars", "Venus", "Jupiter"), 2),
+        Question("Who wrote 'Romeo and Juliet'?", listOf("Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"), 2),
+        Question("What is the chemical symbol for gold?", listOf("Au", "Ag", "Pb", "Fe"), 1),
+        Question("How many continents are there on Earth?", listOf("5", "6", "7", "8"), 3),
+        Question("Which ocean is the largest by area?", listOf("Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"), 3),
+        Question("What is the powerhouse of the cell?", listOf("Nucleus", "Mitochondria", "Ribosome", "Golgi Apparatus"), 2),
+        Question("Which country is famous for inventing pizza?", listOf("France", "Italy", "Greece", "Spain"), 2),
+        Question("What is the longest river in the world?", listOf("Amazon River", "Nile River", "Yangtze River", "Mississippi River"), 2)
+
     )
 
     private var correctAnswers = 0

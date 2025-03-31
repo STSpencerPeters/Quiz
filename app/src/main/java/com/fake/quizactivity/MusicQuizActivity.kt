@@ -11,7 +11,17 @@ import androidx.appcompat.app.AppCompatActivity
 class MusicQuizActivity : AppCompatActivity(){
     private var currentQuestionIndex = 0
     private val questions = listOf(
-        Question("Who sang 'Thriller", listOf("Prince", "Michael Jackson", "Madonna", "Bowie"), 1)
+        Question("Who is known as the King of Pop?", listOf("Elvis Presley", "Michael Jackson", "Prince", "Frank Sinatra"), 2),
+        Question("Which instrument has 88 keys?", listOf("Violin", "Guitar", "Piano", "Saxophone"), 3),
+        Question("Which band released the song 'Bohemian Rhapsody'?", listOf("The Beatles", "Queen", "The Rolling Stones", "Led Zeppelin"), 2),
+        Question("What is the real name of the artist known as Eminem?", listOf("Marshall Mathers", "Curtis Jackson", "Shawn Carter", "Christopher Wallace"), 1),
+        Question("Which female artist released the album '1989'?", listOf("Beyoncé", "Adele", "Taylor Swift", "Katy Perry"), 3),
+        Question("Which musical symbol represents a note held for four beats?", listOf("Quarter note", "Half note", "Whole note", "Eighth note"), 3),
+        Question("Who was the lead singer of Nirvana?", listOf("Kurt Cobain", "Eddie Vedder", "Chris Cornell", "Dave Grohl"), 1),
+        Question("Which composer wrote 'Für Elise'?", listOf("Mozart", "Beethoven", "Bach", "Chopin"), 2),
+        Question("Which genre of music is often associated with turntables and scratching?", listOf("Jazz", "Hip-Hop", "Classical", "Reggae"), 2),
+        Question("Who sang 'Someone Like You'?", listOf("Adele", "Rihanna", "Mariah Carey", "Celine Dion"), 1)
+
     )
 
     private var correctAnswers = 0

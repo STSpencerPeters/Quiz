@@ -11,7 +11,16 @@ import androidx.appcompat.app.AppCompatActivity
 class MathQuizActivity : AppCompatActivity() {
     private var currentQuestionIndex = 0
     private val questions = listOf(
-        Question("What is 25 X 20", listOf("350", "400", "500", "625"), 3)
+        Question("What is 25 X 20", listOf("350", "400", "500", "625"), 3),
+        Question("What is 6 * 7?", listOf("36", "42", "48", "54"), 2),
+        Question("What is 18 / 3?", listOf("4", "5", "6", "7"), 3),
+        Question("What is 11 * 3?", listOf("30", "32", "33", "34"), 3),
+        Question("What is 48 / 6?", listOf("7", "8", "9", "10"), 8),
+        Question("What is 14 + 28?", listOf("40", "41", "42", "43"), 3),
+        Question("What is 100 - 57?", listOf("41", "42", "43", "44"), 3),
+        Question("What is 72 / 8?", listOf("7", "8", "9", "10"), 3),
+        Question("What is the square of 6?", listOf("30", "32", "36", "38"), 3),
+        Question("What is 144 / 12?", listOf("10", "11", "12", "13"), 3)
     )
 
     private var correctAnswers = 0

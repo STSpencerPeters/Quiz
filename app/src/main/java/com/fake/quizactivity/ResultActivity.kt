@@ -5,13 +5,11 @@ import android.util.Log
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.firestore
 
-class ResulltActivity : AppCompatActivity() {
+class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -34,7 +32,7 @@ class ResulltActivity : AppCompatActivity() {
         val category = intent.getStringExtra("CATEGORY") ?: return
 
         val scoreData = hashMapOf(
-            "correctAnswers" to correctAnswers
+            "correctAnswers" to correctAnswers,
             "timeTaken" to timeTaken
         )
 

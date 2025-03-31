@@ -18,10 +18,15 @@ class CategoriesActivity : AppCompatActivity() {
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
 
         recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = CategoriesAdapter(categories) {category ->
-            val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra("Catgeory", category)
-            startActivity((intent))
+        recyclerView.adapter = CategoriesAdapter(categories) { category ->
+            val intent = when (category) {
+                "Math" -> Intent(this, MathQuizActivity::class.java)
+                "General Knowledge" -> Intent(this, GeneralKnowledgeQuizActivity::class.java)
+                "Music" -> Intent(this, MusicQuizActivity::class.java)
+                "Video Games" -> Intent(this, VideoGamesQuizActivity::class.java)
+                else -> null
+            }
+            intent?.let { startActivity(it) }
         }
     }
 }

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "855477143712",
+    "project_id": "fire-library-4706f",
+    "storage_bucket": "fire-library-4706f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855477143712:android:2345015b903c68fd9e61c5",
+        "android_client_info": {
+          "package_name": "com.fake.loginapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-8lRsD49eyM3ZJVJFeOn8h5BzEQH_WA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855477143712:android:aa68cad4fe0159a59e61c5",
+        "android_client_info": {
+          "package_name": "com.fake.quizactivity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-8lRsD49eyM3ZJVJFeOn8h5BzEQH_WA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855477143712:android:b6c2144440c16e4e9e61c5",
+        "android_client_info": {
+          "package_name": "com.fake.recyclerview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-8lRsD49eyM3ZJVJFeOn8h5BzEQH_WA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
